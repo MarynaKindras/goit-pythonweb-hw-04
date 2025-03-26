@@ -50,3 +50,38 @@
 >
 > ВАЖЛИВО Перегляньте Інструкцію щодо завантаження робочого файлу з репозиторію
 > на Github
+
+### Результат виконаного завдання
+
+# Asynchronous File Sorter
+
+This script sorts files by their extensions, copying them into corresponding subfolders in the destination directory. It runs asynchronously, making it efficient for processing large numbers of files.
+
+## ⚙️ Setting Up a Virtual Environment  
+It's recommended to run the script inside a virtual environment to manage dependencies.  
+
+### 1️⃣ Create a Virtual Environment  
+```bash
+python -m venv venv
+```
+
+### 2️⃣ Activate the Virtual Environment  
+- **Windows (CMD):**  
+  ```cmd
+  venv\Scripts\activate
+  ```
+
+### 3️⃣ Install Dependencies  
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Running the Script  
+Once the virtual environment is activated and dependencies are installed, run on Windows:  
+Example:  
+```bash
+python main.py --source ./source --output ./output
+```
+---
